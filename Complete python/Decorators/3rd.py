@@ -10,7 +10,6 @@ def cache(func):
         return result
     return wrapper
 
-
 @cache
 def long_running_function(a,b):
     time.sleep(4)
